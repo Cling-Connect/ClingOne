@@ -1,0 +1,156 @@
+.cards-list-explore {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  margin-left: 30vmin;
+}
+  
+.card-explore {
+  width: 23vmin;
+  height: 23vmin;
+  border-radius: 50%;
+  transition: 0.4s;
+  margin-left: 9vmin;
+  margin-top: -6vmin;
+  font: Georgia (serif);
+  z-index: 100;
+}
+  
+.card-explore .card_image-explore {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  z-index: 100;
+}
+  
+.card-explore .card_image-explore img {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-explore .card_title-explore {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  font: Georgia (serif);
+  color: rgb(255, 255, 255);
+  opacity: 0%;
+}
+
+
+.card-explore:hover .card_title-explore{
+  color: rgb(0, 0, 0);
+  opacity: 100%;
+}
+/*   
+.card-explore:hover {
+  transform: scale(0.8, 0.8);
+} */
+
+
+.title-white-explore {
+  color: white;
+}
+
+.title-black-explore {
+  color: black;
+}
+
+.holderz{
+  background-color: rgb(255, 255, 255);
+  z-index: 50;
+  height: 30vmin;
+  margin-top: 10vmin;
+}
+
+.holderz-band{
+  background-color: transparent;
+  position: relative;
+  width: 40vmin;
+  margin-top: 0vmin;
+  height: 13vmin;
+  z-index: -10;
+}
+
+.holderz-text{
+  font-size: 4vmin;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+  color: transparent;
+  text-align: center;
+  padding-top: 2vmin;
+  z-index: 0;
+}
+
+.holderz-info{
+  position: relative;
+  font-weight: bolder;
+  font-size: 3vmin;
+  margin-left: 2vmin;
+  margin-top :-9vmin;
+  text-align: left;
+  color: transparent;
+}
+
+.holderz-data{
+  color: transparent;
+  font-size: 3vmin;
+  margin-left: 2vmin;
+  font-weight: bolder;
+  margin-top: 1vmin;
+}
+
+.holderz:hover .card-explore{
+  transform: scale(0.75, 0.75);
+}
+
+.holderz:hover .holderz-info{
+  color:rgb(0, 0, 0); 
+}
+
+.holderz:hover .holderz-data{
+  color:rgb(116, 23, 192);
+}
+
+
+.holderz-info-right{
+  position: relative;
+  font-weight: bolder;
+  font-size: 3vmin;
+  margin-left: 12vmin;
+  margin-top :-13.4vmin;
+  text-align: right;
+  color: transparent;
+}
+
+.holderz-data-right{
+  color: transparent;
+  font-size: 3vmin;
+  margin-left: 28vmin;
+  font-weight: bolder;
+  margin-top: 1vmin;
+}
+
+
+.holderz:hover .holderz-info-right{
+  color:rgb(0, 0, 0); 
+}
+
+.holderz:hover .holderz-data-right{
+  color:rgb(116, 23, 192);
+}
+
+.holderz:hover .holderz-band{
+  background-color:#3c69ff;
+}
+
+.holderz:hover .holderz-text{
+  color: white;
+}

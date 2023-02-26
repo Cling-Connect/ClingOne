@@ -1,0 +1,134 @@
+.body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.facts {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(49, 118, 255);
+    color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    z-index: -1;
+    border-right: 3px solid black;
+}
+
+.facts-title{
+    font-family: Garamond, serif;
+    font-weight:bolder;
+    font-size: 9vmin;
+    text-align: center;
+    margin-top :-3vmin;
+    margin-bottom :5vmin;
+}
+
+.facts-box{
+    border: 3px solid black;
+    height: 10vmin;
+    width: 10vmin;
+    margin-left: 10vmin;
+    margin-bottom: 12vmin;
+    margin-top: 4vmin;
+}
+
+.facts-logo{
+    width: 100%;
+}
+
+.facts-infoz{
+    font-family: Garamond, serif;
+    font-size: 3vmin;
+    text-align: center;
+    font-weight: bold;
+    width: 250%;
+    margin-left: -6.5vmin;
+}
+
+.blue-circle{
+    width: 16%;
+    height:68%;
+    border-radius: 50%;
+    background-color: #513CFF;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+.people-icon{
+    position: relative;
+    height: 90%;
+    margin-top: 12%;
+    margin-left: 19%;
+}
+
+.profile{
+    border: 7px solid black;
+    border-radius: 0% 0% 8% 8%;
+    width: 80vmin;
+    height: 60vmin;
+    margin-left: 30%;
+    margin-top: -4%;
+    
+}
+
+.profile-band{
+    position: relative;
+    background-color: black;
+    height: 17vmin;
+}
+
+.profile-text{
+    position: absolute;
+    margin-left: 50%;
+    color: rgb(78, 132, 249);
+    font-family: Garamond, serif;
+    font-size: 4.7vmin;
+    margin-top:-15%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.avatar-icon{
+    position: relative;
+    height: 9vmin;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.prof-iconz{
+    display: flex;
+}
+
+.prof-textz{
+    position: relative;
+    
+    color:rgb(116, 23, 192);
+    font-weight: bolder;
+    font-size: 3.2vmin;
+    margin-left: 2vmin;
+    margin-top: 2.5vmin;
+}
+
+.prof-num{
+    color:rgb(78, 132, 249);
+}
+
+.prof-follow{
+    margin-left: 16vmin;
+    position: inherit;
+    display: flex;
+}
+
+.prof-follow img{
+    margin-top: 2vmin;
+}
+
+.social-icon{
+    position: relative;
+    height: 5vmin;
+    margin-left: 8.5vmin;
+    margin-top: 30%;
+}
